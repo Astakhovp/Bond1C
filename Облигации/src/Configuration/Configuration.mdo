@@ -37,4 +37,5 @@
   </languages>
   <subsystems>Subsystem.Акции</subsystems>
   <subsystems>Subsystem.Облигации</subsystems>
+  <catalogs>Catalog.Облигации</catalogs>
 </mdclass:Configuration>

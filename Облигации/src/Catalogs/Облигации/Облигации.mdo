@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b01eac5-adcf-416b-aa22-df40d79a4a2e">
+  <producedTypes>
+    <objectType typeId="604fcd8c-e13b-40d1-963e-8ee84052f31d" valueTypeId="b1c5787f-1479-4f9e-9b77-b65cc5f62284"/>
+    <refType typeId="33777a0c-de27-40c4-abf4-23ee9f1c448a" valueTypeId="7c58653e-0ef6-4a41-8e50-64b31f81a0b5"/>
+    <selectionType typeId="17eafeb3-0777-490c-b922-392fbb55a13e" valueTypeId="1c6dbdb6-84ba-48f9-9571-c1429f410ff5"/>
+    <listType typeId="d321b5f9-937f-4473-b3ca-aec3e0fe2347" valueTypeId="280eba4d-4982-4b2d-bea5-aaed6f5a674f"/>
+    <managerType typeId="b901c348-eb6c-4337-bd09-5b85cdd0d6c0" valueTypeId="cb141663-73be-473c-912f-f9458c1aa979"/>
+  </producedTypes>
+  <name>Облигации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Облигации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Облигации.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Облигации.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>12</codeLength>
+  <descriptionLength>64</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
